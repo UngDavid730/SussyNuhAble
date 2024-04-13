@@ -1,0 +1,134 @@
+.navbar_height{
+    height: 7vh;
+}
+#brandName{
+    font-size: 1.5em;
+    font-family: "Platypi", serif;
+    font-weight: bold;
+    font-style: normal;
+    color:#cc1253;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.custom-file-button input[type=file] {
+    margin-left: -2px !important;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+    display: none;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+    display: none;
+}
+
+.custom-file-button:hover label {
+    background-color: #dde0e3;
+    cursor: pointer;
+}
+
+.modal-footer{
+    background-color: white  !important;
+}
+
+.cardImgHeight{
+    max-width:90%;
+}
+a{
+    currentColor:black;
+    color:black;
+}
+.card{
+    border: 0px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.card img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.main{
+    margin-top:7vh;
+}
+
+*{
+    font-family: "Arimo", sans-serif;
+}
+.container1 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container2 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container2 {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container1 img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 30%;
+}
+.container2 img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 30%;
+}
+.chatbox {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    display: ruby-text;
+
+}
+.chatbox h5{
+    display: inline;
+
+}
+.chatbox h5 ion-icon{
+    padding-top: 7px;
+padding-right: 10px;
+    float: right;
+
+}
+.chatbox img {
+    float: left;
+    max-width: 50px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 30%;
+}
+#messages{
+    margin-top:10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
